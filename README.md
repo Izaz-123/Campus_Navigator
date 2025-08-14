@@ -1,11 +1,11 @@
 
-🗺️ Campus Navigator
+**🗺️ Campus Navigator**
 
 A web-based campus navigation system built using Django that helps users find optimal paths between locations on campus using an unweighted graph algorithm.
 
 ⸻
 
-🚀 Features
+**🚀 Features**
 	•	📍 Interactive Map: Displays campus layout with buildings and paths
 	•	🔍 Find Path: Calculates shortest path between two selected locations
 	•	🏫 Building Information: Displays details for each location
@@ -14,7 +14,7 @@ A web-based campus navigation system built using Django that helps users find op
 
 ⸻
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 
 Frontend	Backend	Database	Tools	Methodology
 HTML, CSS, JavaScript	Django	SQLite	Git, GitHub	Agile
@@ -22,20 +22,17 @@ HTML, CSS, JavaScript	Django	SQLite	Git, GitHub	Agile
 
 ⸻
 
-📸 Screenshots
-
-|| Login Page ||	Registration Page ||	Home Page and Map View ||
-|| <img width="2940" height="1596" alt="login page" src="https://github.com/user-attachments/assets/d875f326-1e96-4870-bffc-0c915936209f" /> ||
-<img width="2940" height="1596" alt="registration page" src="https://github.com/user-attachments/assets/0a051db4-1963-45c0-a973-30f40f2cae02" /> ||
-<img width="2940" height="1596" alt="homepage" src="https://github.com/user-attachments/assets/ac6c3085-8529-4cad-8281-e1c05bd0c3b9" /> ||
 
 
+**📸 Screenshots**
 
-
+| Login     | Register | Home  and Map View |
+|-----------|----------|--------------------|
+|  <img width="2940" height="1596" alt="login page" src="https://github.com/user-attachments/assets/d875f326-1e96-4870-bffc-0c915936209f" /> | <img width="2940" height="1596" alt="registration page" src="https://github.com/user-attachments/assets/0a051db4-1963-45c0-a973-30f40f2cae02" /> | <img width="2940" height="1596" alt="homepage" src="https://github.com/user-attachments/assets/ac6c3085-8529-4cad-8281-e1c05bd0c3b9" /> | 
 
 ⸻
 
-🔧 Setup Instructions
+**🔧 Setup Instructions**
 
 1️⃣ Clone the Repository
 
@@ -76,14 +73,14 @@ http://127.0.0.1:8000
 
 ⸻
 
-📍 How It Works
+**📍 How It Works**
 	•	The map is represented as an unweighted graph in Django backend.
 	•	When a user selects two locations, the system uses Breadth-First Search (BFS) to find the shortest path.
 	•	The path is then displayed visually on the campus map.
 
 ⸻
 
-👤 Author
+**👤 Author**
 
 Mohammad Izaz
 📧 Email: izazofficial123@gmail.com
