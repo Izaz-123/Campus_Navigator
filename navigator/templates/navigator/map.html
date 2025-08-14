@@ -1,0 +1,31 @@
+{% extends "navigator/base.html" %}
+{% load static %}
+
+{% block title %}Campus Navigator{% endblock %}
+
+{% block extra_css %}
+
+{% endblock %}
+
+{% block content %}
+<div class="navigator-container">
+    <h1>Campus Navigator</h1>
+    <form id="navigator-form">
+        <label for="start">Starting Position</label>
+        <input type="text" id="start" name="start" placeholder="e.g., Block 25" required>
+
+        <label for="end">Ending Position</label>
+        <input type="text" id="end" name="end" placeholder="e.g., Block 30" required>
+
+        <button type="submit">Find Shortest Path</button>
+    </form>
+
+    <div id="result"></div>
+    <div id="map"></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="{% static 'js/map.js' %}"></script>
+{% endblock %}
